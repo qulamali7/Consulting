@@ -1,0 +1,35 @@
+.featured_card {
+    margin-bottom: 120px;
+    position: relative;
+  img {
+  }
+  &_content {
+    position: absolute;
+    bottom: -60px;
+    left: 0px;
+    width: 480px;
+    background-color: #fff;
+    padding: 25px 30px;
+    &_top {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 15px;
+      .line {
+        width: 35px;
+        height: 2px;
+        background: #e94d65;
+      }
+      h4 {
+        color: #e94d65;
+        font-weight: 300;
+        font-size: 14px;
+      }
+    }
+    p {
+      color: #0e132a;
+      font-weight: 400;
+      font-size: 20px;
+    }
+  }
+}

@@ -1,0 +1,11 @@
+#featured{
+    background-color: #f5f5f5;
+    .featured_container{
+        max-width: 1200px;
+        margin: auto;
+
+        .featured_content{
+            padding: 180px 0px;
+        }
+    }
+}

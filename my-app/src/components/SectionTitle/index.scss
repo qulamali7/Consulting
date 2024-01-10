@@ -1,0 +1,23 @@
+.section_title {
+  &_top {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    .line {
+      width: 54px;
+      height: 2px;
+      background: #eb566c;
+    }
+    .section_title_text {
+      font-size: 18px;
+      font-weight: 500;
+      text-transform: uppercase;
+      color: #eb566c;
+    }
+  }
+  .section_title_head {
+    font-size: 50px;
+    color: #092c3f;
+    font-weight: 900;
+  }
+}

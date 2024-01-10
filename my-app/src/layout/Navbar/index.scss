@@ -1,0 +1,35 @@
+#header {
+  background-color: #e5e5e5;
+  width: 100%;
+  position: fixed;
+  z-index: 5;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  .header_area {
+    height: 72px;
+    padding-top: 15px;
+    .header_container {
+      max-width: 1200px;
+      margin: auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .header_logo {
+        padding-top: 5px;
+        img {
+        }
+      }
+      nav {
+        ul {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          li {
+            color: #0d2d3e;
+            font-weight: 400;
+            font-size: 16px;
+          }
+        }
+      }
+    }
+  }
+}

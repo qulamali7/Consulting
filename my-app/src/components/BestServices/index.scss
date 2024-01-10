@@ -1,0 +1,44 @@
+#best_services {
+  background-image: url("https://preview.colorlib.com/theme/consultingbiz/assets/img/gallery/section_bg02.jpg.webp");
+  .best_services_container {
+    max-width: 1200px;
+    margin: auto;
+    .best_services_content {
+      padding: 100px 0px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      &_img {
+        img {
+        }
+      }
+      &_text {
+        width: 50%;
+        h4 {
+          margin-top: 50px;
+          font-size: 20px;
+          font-weight: 500;
+          color: #fff;
+          margin-bottom: 15px;
+        }
+        h5 {
+          font-size: 15px;
+          color: #cccc;
+          margin-bottom: 65px;
+          font-weight: normal;
+        }
+        button {
+          background: #ff2143;
+          padding: 20px 44px;
+          border: none;
+          text-transform: uppercase;
+          color: #fff;
+          font-size: 14px;
+          font-weight: 500;
+          letter-spacing: 1px;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

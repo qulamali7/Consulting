@@ -1,0 +1,33 @@
+form{
+    margin-top: 30px;
+    display: grid;
+    place-items: center;
+   
+    .add_form{
+        border: 1px solid black;
+        border-radius: 5px;
+        padding: 50px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: flex-start;
+        .form_input{
+            margin-bottom: 20px;
+            h4{
+                label{
+
+                }
+            }
+            div{
+                
+                input{
+                    width: 350px;
+                    height: 30px;
+                }
+            }
+            p{
+                color: red;
+            }
+        }
+    }
+}
