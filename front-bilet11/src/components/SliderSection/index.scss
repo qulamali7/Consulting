@@ -1,0 +1,36 @@
+.slick-next{
+    right: 25px;
+}
+.slick-prev{
+    left: 25px;
+    z-index: 3;
+}
+
+.slider_container {
+    padding:  0px;
+    padding-top: 72px;
+    .slide_item {
+        position: relative;
+        .slide_text {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            max-width: 50%;
+            height: 50%;
+            position: absolute;
+            top: 9%;
+            left: 9%;
+            h2 {
+                font-size: 85px;
+            }
+
+            button {
+                width: 200px;
+                height: 60px;
+                background-color: #ff2143;
+                border: none;
+                color: white;
+            }
+        }
+    }
+}
